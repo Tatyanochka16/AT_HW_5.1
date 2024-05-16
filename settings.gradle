@@ -1,0 +1,6 @@
+rootProject.name = 'AT_HW_5'
+include 'src:main:data'
+findProject(':src:main:data')?.name = 'data'
+include 'src:data'
+findProject(':src:data')?.name = 'data'
+
